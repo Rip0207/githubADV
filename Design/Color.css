@@ -1,0 +1,114 @@
+.color_01
+{
+	background-color:#cccc33;
+	color : #f2f1df;
+}
+.color_02
+{
+	background-color:#ada804;
+	color : #f2f1df;
+}
+.color_03
+{
+	background-color:#f2f1df;
+	color : #ada804;
+}
+.color_04
+{
+	background-color:#ede9c0;
+	color : #ada804;
+}
+.color_05
+{
+	background:url("./Images/forest.jpg");
+	background-size : 100% 100%;
+	color : #ada804;
+}
+.Planche >  .Container > .Logo
+{
+	background-image: url("./Images/Logo_C_01.png");
+}
+.Planche.color_03 >  .Container > .Logo,.Planche.color_04 >  .Container > .Logo
+{
+	background-image: url("./Images/Logo_C_02.png");
+}
+
+.Error::-webkit-input-placeholder 
+{
+    color :#FF0000;
+}
+.Error:-moz-placeholder
+ {
+   color :#FF0000;
+   opacity:  1;
+}
+.Error::-moz-placeholder
+{ 
+   color :#FF0000;
+   opacity:  1;
+}
+.Error:-ms-input-placeholder
+{
+   color :#FF0000;
+}
+input[type=button].Disabled, input[type=submit].Disabled,input[type=text].Disabled,input[type=password].Disabled,
+input[type=button]:hover.Disabled, input[type=submit]:hover.Disabled,
+input[type=button]:active.Disabled,input[type=submit]:active.Disabled
+{
+	background: #A5A5A5;
+    border-color: #A5A5A5;
+    color: #CCCCCC;
+}
+input[type=button], input[type=submit]
+{
+	background: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #5F5C00;	
+}
+input[type=button]:hover,input[type=submit]:hover
+{
+	background:#5F5C00;
+    border-color: #5F5C00;
+    color: #f2f1df;
+}
+input[type=button]:active,input[type=submit]:active
+{
+	background: #909026;
+    border-color:#909026;
+    color: #ede9c0;	
+}
+input[type=text],input[type=password]
+{
+	background: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #5F5C00;	
+}
+#Connexion input[type=text],#Inscription input[type="text"],
+#Connexion input[type=password],#Inscription input[type="password"]
+{
+	border-bottom-color: #F5F5F5;
+}
+#P_Boutons input[type=button]
+{
+	background:#FFFFFF;
+	border-color: #FFFFFF;
+    color: #5F5C00;	
+	border-radius:50% 50%;
+	width :25px;
+	height :25px;
+}
+#P_Boutons input[type=button]:hover
+{
+	background:#5F5C00;
+	border-color: #5F5C00;
+}
+#P_Boutons input[type=button]:active
+{
+	background:#909026;
+	border-color:#909026;
+}
+#P_Boutons input[type=button].Disabled
+{
+	background:none;
+}
+

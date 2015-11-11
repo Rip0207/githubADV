@@ -1,0 +1,225 @@
+/*------ RESET ------ */
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html,body
+{
+	height : 100%;
+	width:100%;
+	overflow : hidden;
+	text-align: center;
+	font-size: 15px;	
+}
+*,*:after,*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+input
+{
+	border-radius : 2px;
+	outline : none;
+    border: 5px solid;
+}
+fieldset
+{
+	border:none;
+}
+
+ul,li
+{
+	margin:0;
+	padding: 0;	
+	list-style: none;
+	text-align:left;
+}
+form>fieldset>ul>li
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#Principal
+{
+	width : 100%;
+	height : 100%;
+	position : relative;
+	overflow-y : hidden;
+}
+#Boutons
+{
+	position : absolute;
+	top : 10px;
+	right : 10px;
+}
+#Boutons ul>li
+{
+	display:inline-block;
+	height:inherit;
+}
+#Connexion,#Inscription
+{
+	width : 100%;
+	max-width : 800px;
+	text-align:center;
+}
+#Connexion ul,#Connexion ul>li ,#Inscription ul,#Inscription ul>li 
+{
+	text-align:inherit;
+}
+#Connexion ul>li ,#Inscription ul>li 
+{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#Connexion input,#Inscription input
+{
+	padding:10px;
+	width : 100%;
+	max-width : 300px;
+}
+#Connexion input[type=text],#Inscription input[type="text"],
+#Connexion input[type=password],#Inscription input[type="password"]
+{
+	border-bottom: 2px solid;
+}
+#P_Boutons
+{
+	position : absolute;
+	left:50px;
+}
+.Planche
+{
+	width : 100%;
+	height:100%;
+	overflow-y : hidden;
+	position : absolute;
+	top:0%;
+}
+.Planche > .Container
+{
+	margin-top : 50px;
+	position : relative;
+	height : 100%;
+}
+.Planche >  .Container > .Logo
+{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    margin-bottom: 50px;
+    width: 25%;
+    height: 25%;
+    max-width: 250px;
+    max-height: 250px;
+    min-width: 75px;
+    min-height: 75px;
+}
+.Planche > .Container > .Preview
+{
+	bottom :50px;
+	height:50px;
+	position : absolute;
+	width : 100%;
+}
+
+/* Ne concerne que la dernière planche */
+
+.Planche.Last > .Container
+{
+	margin-top : 0px;
+}
+.Planche.Last>  .Container > .Logo
+{    
+    margin-bottom: 0px;
+}
+.Planche.Last > .Container > .Preview
+{
+	bottom :0;
+}
+
+
+#P_1.Planche
+{
+	top:-50px;
+}
+.Top_0
+{
+	position : absolute;
+	top:0%;
+}
+
+.Bottom_0
+{
+	position : absolute;
+	bottom:0%;
+}
+.Left_0
+{
+	position : absolute;
+	left:0%;
+}
+.Right_0
+{
+	position : absolute;
+	right:0%;
+}
+.Center, .CenterX
+{
+	position:absolute;
+	left : 50%;
+}
+.Center, .CenterY
+{
+	position:absolute;
+	top : 50%;
+}
+

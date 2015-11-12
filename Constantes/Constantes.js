@@ -19,17 +19,20 @@ var C_Disabled="Disabled";
 /* Names */
 var C_BTN_Log = "ToLog";
 var C_BTN_Sub = "ToSub";
-var C_Mail = "Email";
-var C_Pass = "Password";
-var C_VerifPass = "VerifPassword";
+var C_Mail = "email";
+var C_Pass = "password";
+var C_VerifPass = "password_confirmation";
 var C_ToPlanche = "ToPlanche";
 
 /* IDs */
 var C_FormCo = "Connexion";
 var C_FormSub = "Inscription";
+var C_NavLeft = "NavigationLeft";
+var C_NavRight= "NavigationRight";
 var C_Planche = "P";
 var C_BoutonToPlanche = "P_Boutons";
 
-/* Durations */
+/* Other */
 var C_AnimDelay_01=0.5;
+var C_PlancheToPass=1;
 

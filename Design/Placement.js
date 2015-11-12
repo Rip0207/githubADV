@@ -1,6 +1,4 @@
-//Attente du chargement du body
-document.body.onload = Base;
-
+Base();
 //Fonction principale
 function Base()
 {
@@ -27,6 +25,7 @@ function Base()
 	{
 		//Evite certains désagréements.
 		window.onresize = GraphicalInit;	
+		document.body.onload = GraphicalInit;		
 		
 		document.body.addEventListener("wheel",WheelChangementPlan);		
 		document.addEventListener("Delayed",function(){clearInterval(interval);});
@@ -75,6 +74,12 @@ function Base()
 		for(var i = 0;i< btnPlanche.length;i++ )
 		{		
 			btnPlanche[i].getElementsByTagName("input")[0].addEventListener("click",ButtonChangementPlan);
+		}
+		
+		var btnSpecialPlanche = document.getElementById(C_NavLeft).getElementsByTagName("ul")[0].getElementsByTagName("li");
+		for(var i = 0;i< btnSpecialPlanche.length;i++ )
+		{		
+			btnSpecialPlanche[i].getElementsByTagName("input")[0].addEventListener("click",ButtonChangementPlan);
 		}
 	}
 	
@@ -144,14 +149,19 @@ function Base()
 	{
 		if(delay.Current == 0)
 		{	
-			var btnPlanche= document.getElementById(C_BoutonToPlanche).getElementsByTagName("fieldset")[0].getElementsByTagName("ul")[0].getElementsByTagName("li")[planche-1].getElementsByTagName("input")[0];
-			if(!HasClass(btnPlanche,C_Disabled))
+			var oldBtnPlanche= document.getElementById(C_BoutonToPlanche).getElementsByTagName("fieldset")[0].getElementsByTagName("ul")[0].getElementsByTagName("li")[planche-1].getElementsByTagName("input")[0];
+			if(!HasClass(oldBtnPlanche,C_Disabled))
 			{	
-				btnPlanche.classList.toggle(C_Disabled);
+				oldBtnPlanche.classList.toggle(C_Disabled);
 			}
-			if(HasClass(e.target,C_Disabled))
+			var newBtnPlanche = getElementByNameAndTag(
+					document.getElementById(C_BoutonToPlanche),
+					"input",
+					C_ToPlanche+"_"+parseInt(e.target.getAttribute("name").split("_")[1])
+					);
+			if(HasClass(newBtnPlanche,C_Disabled))
 			{	
-				e.target.classList.toggle(C_Disabled);
+				newBtnPlanche.classList.toggle(C_Disabled);
 			}
 			GoToPlanche(parseInt(e.target.getAttribute("name").split("_")[1]));
 			delay.Start();

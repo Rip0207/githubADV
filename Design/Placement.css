@@ -47,7 +47,9 @@ html,body
 	width:100%;
 	overflow : hidden;
 	text-align: center;
-	font-size: 15px;	
+	font-size: 20px;	
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	 line-height: 1.49;
 }
 *,*:after,*:before {
 	-webkit-box-sizing: border-box;
@@ -84,6 +86,10 @@ form>fieldset>ul>li
 	margin-top:5px;
 	margin-bottom:5px;
 }
+p
+{
+	margin-top: 0.5em;
+}
 #Principal
 {
 	width : 100%;
@@ -94,14 +100,27 @@ form>fieldset>ul>li
 #Boutons
 {
 	position : absolute;
-	top : 10px;
-	right : 10px;
+	top : 110px;
+	right : 200px;
 }
 #Boutons ul>li
 {
 	display:inline-block;
 	height:inherit;
 }
+#Research
+{
+	position : absolute;
+	top : 110px;
+	left : 200px;
+	width: 50%;
+    max-width: 300px;
+}
+#Research input[type=text]
+{
+	width : 100%;
+}
+
 #Connexion,#Inscription
 {
 	width : 100%;
@@ -131,21 +150,51 @@ form>fieldset>ul>li
 #P_Boutons
 {
 	position : absolute;
-	left:50px;
+	left:200px;
+	z-index:2;
+}
+#P_1
+{
+	z-index:3;
+}
+#container
+{
+	width: 100%;
+    max-width: 500px;
+}
+#Book_Container
+{
+	width: 100%;
+    padding: 50px;
 }
 .Planche
 {
 	width : 100%;
-	height:100%;
+	height: 100%;
+	padding : 100px;
+	padding-left:190px;
+	padding-right:190px;
 	overflow-y : hidden;
 	position : absolute;
 	top:0%;
+	z-index:1;
+}
+
+.Planche.Last
+{
+	padding-bottom:50px;
 }
 .Planche > .Container
 {
-	margin-top : 50px;
+	margin-top : 0px;
 	position : relative;
 	height : 100%;
+}
+.Planche >.Container>div>p
+{
+	width: 100%;
+    max-width: 750px;
+
 }
 .Planche >  .Container > .Logo
 {
@@ -155,8 +204,8 @@ form>fieldset>ul>li
     position: absolute;
     right: 10px;
     bottom: 10px;
-    margin-bottom: 50px;
-    width: 25%;
+    margin-bottom: 0px;
+    width: 15%;
     height: 25%;
     max-width: 250px;
     max-height: 250px;
@@ -165,7 +214,7 @@ form>fieldset>ul>li
 }
 .Planche > .Container > .Preview
 {
-	bottom :50px;
+	bottom :-50px;
 	height:50px;
 	position : absolute;
 	width : 100%;
@@ -185,32 +234,75 @@ form>fieldset>ul>li
 {
 	bottom :0;
 }
-
-
-#P_1.Planche
+.Nav
 {
-	top:-50px;
+	width: 7%;
+    max-width: 100px;
+    min-width: 25px;
 }
+.Nav li
+{
+	height: 75px;
+}
+.Nav li>input
+{
+	border:none;
+	width : 100%
+}
+.Interface
+{
+	z-index:4;
+}
+.wowbook-page-content.content>p
+{
+	width:90%;
+	padding-left:10%;
+}
+/* Plugins */
+.picker__select--month, .picker__select--year
+ {    
+    height: inherit;
+}
+
 .Top_0
 {
 	position : absolute;
 	top:0%;
 }
-
+.Top_10
+{
+	position : absolute;
+	top:10%;
+}
 .Bottom_0
 {
 	position : absolute;
 	bottom:0%;
+}
+.Bottom_10px
+{
+	position : absolute;
+	bottom:10px;
 }
 .Left_0
 {
 	position : absolute;
 	left:0%;
 }
+.Left_20
+{
+	position : absolute;
+	left:20%;
+}
 .Right_0
 {
 	position : absolute;
 	right:0%;
+}
+.Right_20
+{
+	position : absolute;
+	right:20%;
 }
 .Center, .CenterX
 {

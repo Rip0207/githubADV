@@ -193,18 +193,36 @@ function getElementByNameAndTag(p_Node,p_Tag,p_Name)
 
 //Centre les éléments en X et/ou en Y
 function Displace(p_Element,p_Vertical,p_Horizontal)
-{
+{	
 	if(p_Vertical)
 	{
+		var relativeHeight;
+		if(p_Element.parentNode==document.body)
+		{
+			relativeHeight=document.body.clientHeight;
+		}
+		else
+		{
+			relativeHeight=getValue( window.getComputedStyle(p_Element.parentNode)["height"]);
+		}
 		var height = getValue( window.getComputedStyle(p_Element)["height"]);   
-        p_Element.style.top=((document.body.clientHeight/2.0)-(height/2.0))+"px";
+        p_Element.style.top=((relativeHeight/2.0)-(height/2.0))+"px";
         
 	}
 	
 	if(p_Horizontal)
 	{
-		 var width = getValue( window.getComputedStyle(p_Element)["width"]);
-		p_Element.style.left=((document.body.clientWidth/2.0)-(width/2.0))+"px";
+		var relativeWidth;
+		if(p_Element.parentNode==document.body)
+		{
+			relativeWidth=document.body.clientWidth;
+		}
+		else
+		{
+			relativeWidth=getValue( window.getComputedStyle(p_Element.parentNode)["width"]);
+		}
+		var width = getValue( window.getComputedStyle(p_Element)["width"]);
+		p_Element.style.left=((relativeWidth/2.0)-(width/2.0))+"px";
 	}
 }
 

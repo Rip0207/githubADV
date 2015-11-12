@@ -1,6 +1,6 @@
 .Planche.DisabledUp
 {
-	top : -50px;
+	top : 0px;
 	-webkit-animation: DisablePlanche ease-in 1 forwards;
 	-moz-animation: DisablePlanche ease-in 1 forwards;
 	-o-animation: DisablePlanche ease-in 1 forwards;
@@ -15,7 +15,7 @@
 }
 .Planche.EnabledDown
 {
-	top : -50px;
+	top : 0px;
 	-webkit-animation: DisablePlanche ease-in 1 reverse;
 	-moz-animation: DisablePlanche ease-in 1 reverse;
 	-o-animation: DisablePlanche ease-in 1 reverse;
@@ -44,6 +44,7 @@
 	animation: DisablePlanche ease-in 1 reverse;
 }
 
+/*
 .Preview
 {
 	opacity :1;
@@ -66,6 +67,24 @@
 	-o-animation: Apparition 0.5s ease-in 1 forwards;		
 	animation: Apparition 0.5s ease-in 1 forwards;
 }
+
+#P_Boutons
+{
+	-webkit-animation: Apparition 0.5s ease-in 1 forwards;	
+	-moz-animation: Apparition 0.5s ease-in 1 forwards;	
+	-o-animation: Apparition 0.5s ease-in 1 forwards;	
+	animation: Apparition 0.5s ease-in 1 forwards;	
+}
+#P_Boutons.Disabled
+{
+	opacity:0;
+	-webkit-animation: Apparition 0.5s ease-in 1 reverse;	
+	-moz-animation: Apparition 0.5s ease-in 1 reverse;	
+	-o-animation: Apparition 0.5s ease-in 1 reverse;	
+	animation: Apparition 0.5s ease-in 1 reverse;	
+}*/
+
+
 /* Normal */
 @keyframes DisablePlanche {
 	from {}
@@ -73,12 +92,13 @@
 }
 @keyframes EnablePlanche {
 	from {}
-	to { top: -50px; }
+	to { top: 0px; }
 }
 @keyframes Apparition {
 	from {opacity :0;}
 	to { opacity: 1; }
 }
+
 /* Webkit */
 @-webkit-keyframes DisablePlanche {
 	from {}
@@ -86,7 +106,7 @@
 }
 @-webkit-keyframes EnablePlanche {
 	from {}
-	to { top: -50px; }
+	to { top: 0px; }
 }
 @-webkit-keyframes Apparition {
 	from {opacity :0;}
@@ -99,7 +119,7 @@
 }
 @-moz-keyframes EnablePlanche {
 	from {}
-	to { top: -50px; }
+	to { top: 0px; }
 }
 @-moz-keyframes Apparition {
 	from {opacity :0;}
@@ -112,7 +132,7 @@
 }
 @-o-keyframes EnablePlanche {
 	from {}
-	to { top: -50px; }
+	to { top: 0px; }
 }
 @-o-keyframes Apparition {
 	from {opacity :0;}

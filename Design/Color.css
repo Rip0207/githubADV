@@ -1,28 +1,74 @@
+.wowbook-page-content
+{
+	background:#FFFFF1;
+}
 .color_01
 {
-	background-color:#cccc33;
-	color : #f2f1df;
+	background: #228a45;
+	background: -webkit-radial-gradient(circle, #228a45, #2eb95c);
+	background: -o-radial-gradient(circle, #228a45, #2eb95c); 
+	background: -moz-radial-gradient(circle, #228a45, #2eb95c);
+	background: radial-gradient(circle, #228a45, #2eb95c);
+	color : #FFFFFF;
 }
 .color_02
 {
-	background-color:#ada804;
-	color : #f2f1df;
+	background: #4f78a0;
+	background: -webkit-radial-gradient(circle, #4f78a0, #689cd0);
+	background: -o-radial-gradient(circle, #4f78a0, #689cd0); 
+	background: -moz-radial-gradient(circle, #4f78a0, #689cd0);
+	background: radial-gradient(circle, #4f78a0, #689cd0);
+	color : #FFFFFF;
 }
 .color_03
 {
-	background-color:#f2f1df;
-	color : #ada804;
+	background: #cccccc;
+	background: -webkit-radial-gradient(circle, #cccccc, #aaaaaa);
+	background: -o-radial-gradient(circle, #cccccc, #aaaaaa); 
+	background: -moz-radial-gradient(circle, #cccccc, #aaaaaa);
+	background: radial-gradient(circle, #cccccc, #aaaaaa);
+	color : #FFFFFF;
 }
 .color_04
 {
-	background-color:#ede9c0;
-	color : #ada804;
+	background: #d7802a;
+	background: -webkit-radial-gradient(circle, #d7802a, #ffa537);
+	background: -o-radial-gradient(circle, #d7802a, #ffa537); 
+	background: -moz-radial-gradient(circle, #d7802a, #ffa537);
+	background: radial-gradient(circle, #d7802a, #ffa537);
+	color : #FFFFFF;	
 }
+
 .color_05
 {
-	background:url("./Images/forest.jpg");
-	background-size : 100% 100%;
-	color : #ada804;
+	background:url("./Images/BG_07.jpg");
+	background-position:bottom;
+	background-size : cover;
+	color : #FFFFFF;
+}
+.color_06
+{
+	background:url("./Images/BG_02.jpg");
+	background-size : cover;
+	color : #FFFFFF;
+}
+.color_07
+{
+	background:url("./Images/BG_03.jpg");
+	background-size : cover;
+	color : #FFFFFF;
+}
+.color_08
+{
+	background:url("./Images/BG_04.jpg");
+	background-size : cover;
+	color : #FFFFFF;
+}
+.color_09
+{
+	background:url("./Images/BG_05.jpg");
+	background-size : cover;
+	color : #FFFFFF;
 }
 .Planche >  .Container > .Logo
 {
@@ -32,7 +78,10 @@
 {
 	background-image: url("./Images/Logo_C_02.png");
 }
-
+.Preview
+{
+	opacity:0.8;
+}
 .Error::-webkit-input-placeholder 
 {
     color :#FF0000;
@@ -51,31 +100,24 @@
 {
    color :#FF0000;
 }
-input[type=button].Disabled, input[type=submit].Disabled,input[type=text].Disabled,input[type=password].Disabled,
-input[type=button]:hover.Disabled, input[type=submit]:hover.Disabled,
-input[type=button]:active.Disabled,input[type=submit]:active.Disabled
-{
-	background: #A5A5A5;
-    border-color: #A5A5A5;
-    color: #CCCCCC;
-}
+
 input[type=button], input[type=submit]
 {
-	background: #FFFFFF;
-    border-color: #FFFFFF;
-    color: #5F5C00;	
+	background: #717d8d;
+    border-color: #717d8d;
+    color: #DDDDDD;
 }
 input[type=button]:hover,input[type=submit]:hover
 {
-	background:#5F5C00;
-    border-color: #5F5C00;
-    color: #f2f1df;
+	background: #529ecc;
+    border-color:#529ecc;
+	color: #FFFFFF;	
 }
 input[type=button]:active,input[type=submit]:active
 {
-	background: #909026;
-    border-color:#909026;
-    color: #ede9c0;	
+	background: #FFFFFF;
+    border-color:#FFFFFF;
+	color: #529ecc;	
 }
 input[type=text],input[type=password]
 {
@@ -83,10 +125,31 @@ input[type=text],input[type=password]
     border-color: #FFFFFF;
     color: #5F5C00;	
 }
-#Connexion input[type=text],#Inscription input[type="text"],
-#Connexion input[type=password],#Inscription input[type="password"]
+#Connexion input[type=text],#Inscription input[type=text],
+#Connexion input[type=password],#Inscription input[type=password]
 {
 	border-bottom-color: #F5F5F5;
+}
+#Connexion input[type=button], #Inscription input[type=button], 
+#Connexion input[type=submit],#Inscription input[type=submit]
+{
+	background: #529ecc;
+    border-color: #529ecc;
+    color: #FFFFFF;
+}
+#Connexion input[type=button]:hover,#Inscription input[type=button]:hover,
+#Connexion input[type=submit]:hover,#Inscription input[type=submit]:hover
+{
+	background: #63B5E6;
+    border-color: #63B5E6;
+    color: #FFFFFF;
+}
+#Connexion input[type=button]:focus,#Inscription input[type=button]:focus,
+#Connexion input[type=submit]:focus,#Inscription input[type=submit]:focus
+{
+	background: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #5F5C00;
 }
 #P_Boutons input[type=button]
 {
@@ -111,4 +174,25 @@ input[type=text],input[type=password]
 {
 	background:none;
 }
+#Research input[type=text]
+{
+	opacity:0.8;
+}
+#book
+{
+	color:#000000;
+}
 
+input[type=button].Disabled, input[type=submit].Disabled,input[type=text].Disabled,input[type=password].Disabled,
+input[type=button]:hover.Disabled, input[type=submit]:hover.Disabled,
+input[type=button]:active.Disabled,input[type=submit]:active.Disabled,
+input[type=button]:focus.Disabled,input[type=submit]:focus.Disabled,
+#Connexion input[type=button]:focus.Disabled,#Inscription input[type=button]:focus.Disabled,
+#Connexion input[type=submit]:focus.Disabled,#Inscription input[type=submit]:focus.Disabled,
+#Connexion input[type=button].Disabled,#Inscription input[type=button].Disabled,
+#Connexion input[type=submit].Disabled,#Inscription input[type=submit].Disabled
+{
+	background: #A5A5A5;
+    border-color: #A5A5A5;
+    color: #CCCCCC;
+}

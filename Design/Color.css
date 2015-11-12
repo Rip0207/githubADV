@@ -1,6 +1,6 @@
 .wowbook-page-content
 {
-	background:#FFFFF1;
+	background:#FFFFFF;
 }
 .color_01
 {
@@ -27,7 +27,7 @@
 	background: -o-radial-gradient(circle, #cccccc, #aaaaaa); 
 	background: -moz-radial-gradient(circle, #cccccc, #aaaaaa);
 	background: radial-gradient(circle, #cccccc, #aaaaaa);
-	color : #FFFFFF;
+	color : #4E4E4E;
 }
 .color_04
 {
@@ -41,7 +41,7 @@
 
 .color_05
 {
-	background:url("./Images/BG_07.jpg");
+	background:url("./Images/BG_08.jpg");
 	background-position:bottom;
 	background-size : cover;
 	color : #FFFFFF;
@@ -101,19 +101,19 @@
    color :#FF0000;
 }
 
-input[type=button], input[type=submit]
+input[type=button], input[type=submit],a.Button
 {
 	background: #717d8d;
     border-color: #717d8d;
     color: #DDDDDD;
 }
-input[type=button]:hover,input[type=submit]:hover
+input[type=button]:hover,input[type=submit]:hover,a.Button:hover
 {
 	background: #529ecc;
     border-color:#529ecc;
 	color: #FFFFFF;	
 }
-input[type=button]:active,input[type=submit]:active
+input[type=button]:active,input[type=submit]:active,a.Button:active
 {
 	background: #FFFFFF;
     border-color:#FFFFFF;

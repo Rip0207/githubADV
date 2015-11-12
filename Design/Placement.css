@@ -63,7 +63,7 @@ a
 	text-decoration: none;
 	color: inherit;
 }
-input
+input,a.Button
 {
 	border-radius : 2px;
 	outline : none;
@@ -167,6 +167,10 @@ p
 	width: 100%;
     padding: 50px;
 }
+#book
+{
+	margin : 0 auto;
+}
 .Planche
 {
 	width : 100%;
@@ -249,14 +253,31 @@ p
 	border:none;
 	width : 100%
 }
+.Preview
+{
+	font-weight:bold;
+}
 .Interface
 {
 	z-index:4;
+}
+.wowbook-page-content.content
+{
+	font-size: small;
 }
 .wowbook-page-content.content>p
 {
 	width:90%;
 	padding-left:10%;
+}
+.wowbook-page-content.content>p>img
+{
+	display: block;
+    max-width: 90%;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+	margin : 0 auto;
 }
 /* Plugins */
 .picker__select--month, .picker__select--year
@@ -313,5 +334,9 @@ p
 {
 	position:absolute;
 	top : 50%;
+}
+.left
+{
+	text-align:left;
 }
 

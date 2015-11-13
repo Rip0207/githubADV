@@ -151,6 +151,24 @@ input[type=text],input[type=password]
     border-color: #FFFFFF;
     color: #5F5C00;
 }
+#P_0 >.Container>a.Button
+{
+	background: #DDDDDD;
+    border-color: #DDDDDD;
+    color: #529ecc;
+}
+#P_0 >.Container>a.Button:hover
+{
+	background: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #529ecc;
+}
+#P_0 >.Container>a.Button:active
+{
+	background: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #717d8d;
+}
 #P_Boutons input[type=button]
 {
 	background:#FFFFFF;

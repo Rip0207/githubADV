@@ -186,6 +186,20 @@ p
 {
 	z-index:3;
 }
+#P_0 >.Container>img
+{
+	width: auto;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+    min-width: 75px;
+    min-height: 75px;
+
+}
+#P_0 >.Container>a
+{
+	padding : 2px;
+}
 #container
 {
 	width: 100%;
@@ -229,6 +243,7 @@ p
     max-width: 750px;
 
 }
+
 .Planche >  .Container > .Logo
 {
     background-size: contain;
@@ -384,4 +399,7 @@ p
 {
 	text-align:left;
 }
-
+.Bold
+{
+	font-weight:bold;
+}

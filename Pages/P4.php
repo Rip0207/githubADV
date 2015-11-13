@@ -3,19 +3,19 @@
 		<div id="Book_Container" class="Center">
 			<div class='book_container'>
 				<div id="book">
-					<div>
+					<div class="content" >
 						<img alt="Intergeneration" src="./Pages/ArbreDeVie/CoverUp.jpg" />
 					</div>
-					<div>
+					<div class="content" >
 						<img alt="Intergeneration" src="./Pages/ArbreDeVie/InsideUp.jpg" />
 					</div>								
-					<div>
+					<div class="content" >
 						<img alt="Intergeneration" src="./Pages/ArbreDeVie/InsideUp2.jpg" />
 					</div>
-					<div>
+					<div class="content" >
 						<!-- Page blanche -->
 					</div>
-					<div>
+					<div class="content" >
 						<br />
 						<br />
 						<br />
@@ -25,9 +25,10 @@
 						</p>
 					</div>
 					<div class="content" >
-						<p>
-							<h2>1918 La calèche familial </h2>
-						</p>
+						<br />
+						<h3><span class="DateFont">1918</span> La calèche familial </h3>
+						
+						<br />
 						<p><img alt="Intergeneration" src="./Pages/ArbreDeVie/IMG_20151002_0002.jpg" />	</p>
 						<p>
 							" La calèche familiale. Le père et la mère de Mamy, Ferdinand et Rose,
@@ -35,26 +36,29 @@
 						</p>
 					</div>
 					<div class="content">
-						<p>
-							<h2>1932 Le petit frère de Mamy </h2>
-						</p>
+						<br />
+						<h3><span class="DateFont">1932</span> Le petit frère de Mamy </h3>
+						<br />
 						<p><img alt="Intergeneration" src="./Pages/ArbreDeVie/IMG_20151002_0004.jpg" />	</p>
 						<p>
 							" Il est mort en novembre 1932 d’une bronchopneumonie. Il avait six semaines."
 						</p>
 					</div>
 					<div class="content">
-						<p>
-							<h2>1935 Mes camarades de classe </h2>
-						</p>
+						
+						<br />
+						<h3><span class="DateFont">1935</span> Mes camarades de classe </h3>
+						
+						<br />
 						<p><img alt="Intergeneration" src="./Pages/ArbreDeVie/IMG_20151002_0009.jpg" />	</p>
 						<p>
 							"  Ma classe d’école primaire en première année. J’avais six ans."
 						</p>
 					</div>
 					<div class="content">
+						<br />
 						<p>
-							<h2>1964 Papy et son deuxième fils </h2>
+							<h3><span class="DateFont">1964</span> Papy et son deuxième fils </h3>
 						</p>
 						<p><img alt="Intergeneration" src="./Pages/ArbreDeVie/IMG_20151002_0003.jpg" />	</p>
 						<p>
@@ -62,9 +66,9 @@
 						</p>
 					</div>
 					<div class="content">
-						<p>
-							<h2>1953 Mes études à l’Université du Travail </h2>
-						</p>
+						<br />
+						<h3><span class="DateFont">1953</span> Mes études à l’Université du Travail </h3>
+						
 						<p>
 							L’électrotechnique est une partie de ma vie. Tout a commencé en 1949. J’ai débuté mes études d’Ingénieur technicien. 
 							J’ai terminé mes études en 1954. J’ai alors été engagé aux ACEC le 2 août 1954, à Charleroi et ai fait une carrière passionnante.
@@ -84,6 +88,8 @@
 							<br />
 							<br />
 							<br />
+							<br />
+							<br />
 						</p>
 						<p><img alt="Intergeneration" src="./Pages/ArbreDeVie/IMG_6455.jpg" />	</p>
 						<p>
@@ -91,18 +97,20 @@
 						</p>
 					</div>
 					<div class="content">
-						<p>
-							<h2>1999 Notre maison à La Bruyère</h2>
-						</p>
+						
+						<br />
+						<h3><span class="DateFont">1999</span> Notre maison à La Bruyère</h3>
+						<br />
 						<p><img alt="Intergeneration" src="./Pages/ArbreDeVie/P1020831.JPG" />	</p>
 						<p>
 							"  Je l’ai dessinée. Je l’ai construite. "
 						</p>
 					</div>
 					<div class="content">
-						<p>
-							<h2>...</h2>
-						</p>
+						
+						<br />
+						<h3>...</h3>						
+						<br />
 						<p><img alt="Intergeneration" src="./Pages/ArbreDeVie/P1020805.JPG" />	</p>
 						<p>
 							"  Et nous l’avons habitée pendant 53 ans, de 1960 jusqu’en 2013. <br />
@@ -110,10 +118,9 @@
 						</p>
 					</div>
 					<div class="content">
-						<p>
-							<h2>Petit poème aux petits enfants</h2>
-						</p>
 						
+						<h3>Petit poème aux petits enfants</h3>
+												
 						<p class="left">
 							Tout dans l'immuable nature <br />
 							Est miracle aux petits enfants ;<br />
@@ -139,9 +146,10 @@
 						</p>
 					</div>
 					<div class="content">
-						<p>
-							<h2>2013 Justin</h2>
-						</p>
+						<br />
+						<h3><span class="DateFont">2013</span> Justin</h3>
+						
+						<br />
 						<p><img alt="Intergeneration" src="./Pages/ArbreDeVie/P1030566.JPG" />	</p>
 						<p>
 							" Justin est né le 22 août 2012. "
@@ -149,7 +157,6 @@
 					</div>
 					<div class="content">
 						<p>
-							<br />
 							<br />
 							<br />
 							<br />
@@ -168,9 +175,12 @@
 						</p>
 					</div>
 					<div class="content">
-						<p>
-							<h2>2015 Papy, Mamy et Justin</h2>
-						</p>
+						
+						<br />
+						
+						<h3><span class="DateFont">2015</span> Papy, Mamy et Justin</h3>
+						
+						<br />
 						<p>
 							<video width="320" height="240" controls>
 							<source src="./Pages/ArbreDeVie/New/Vidéo_2.mp4" type="video/mp4">

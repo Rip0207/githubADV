@@ -176,8 +176,31 @@ input[type=text],input[type=password]
 }
 #Research input[type=text]
 {
-	opacity:0.8;
+	background-color:rgba(0,0,0,0.2);	
+	border-color:rgba(0,0,0,0.2);	
+	color : #FFFFFF;
+	font-weight:bold;
 }
+
+#Research input[type=text]::-webkit-input-placeholder 
+{
+    color :#FFFFFF;
+}
+#Research input[type=text]:-moz-placeholder
+ {
+   color :#FFFFFF;
+   opacity:  1;
+}
+#Research input[type=text]::-moz-placeholder
+{ 
+   color :#FFFFFF;
+   opacity:  1;
+}
+#Research input[type=text]:-ms-input-placeholder
+{
+   color :#FFFFFF;
+}
+
 #book
 {
 	color:#000000;

@@ -10,7 +10,13 @@
 </div>
 
 <div id="Research" class="Interface" >
-	<input name="SearchFor" type="text" placeholder="Trouver un album de vie" class="" />
+	<div>
+		<div>
+			<img title="Déclarer un décès" alt="Déclarer un décès (Lien)" src = "./Design/Images/btn_06.png" />
+			<img title="Rechercher un album de vie" alt="Rechercher un album de vie (Lien)" src = "./Design/Images/btn_07.png" />
+		</div>
+		<input name="SearchFor" type="text" placeholder="Trouver un album de vie" class="" />
+	</div>
 </div>
 
 <div id="P_Boutons" class="CenterY Disabled" >

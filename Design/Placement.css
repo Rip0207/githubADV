@@ -403,3 +403,12 @@ p
 {
 	font-weight:bold;
 }
+@-moz-document url-prefix() 
+{
+  #Book_Container
+	{
+		width: 100%;
+		padding-top: 10px;
+		padding-left: 20px;
+	}
+}

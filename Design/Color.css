@@ -27,7 +27,7 @@
 	background: -o-radial-gradient(circle, #cccccc, #aaaaaa); 
 	background: -moz-radial-gradient(circle, #cccccc, #aaaaaa);
 	background: radial-gradient(circle, #cccccc, #aaaaaa);
-	color : #4E4E4E;
+	color : #FFFFFF;
 }
 .color_04
 {
@@ -155,19 +155,19 @@ input[type=text],input[type=password]
 {
 	background: #DDDDDD;
     border-color: #DDDDDD;
-    color: #529ecc;
+    color: #2eb95c;
 }
 #P_0 >.Container>a.Button:hover
 {
 	background: #FFFFFF;
     border-color: #FFFFFF;
-    color: #529ecc;
+    color: #2eb95c;
 }
 #P_0 >.Container>a.Button:active
 {
 	background: #FFFFFF;
     border-color: #FFFFFF;
-    color: #717d8d;
+    color: #228a45;
 }
 #P_Boutons input[type=button]
 {
@@ -175,18 +175,19 @@ input[type=text],input[type=password]
 	border-color: #FFFFFF;
     color: #5F5C00;	
 	border-radius:50% 50%;
-	width :25px;
-	height :25px;
+	border-width: 2px;
+    width: 15px;
+    height: 15px;
 }
 #P_Boutons input[type=button]:hover
 {
-	background:#5F5C00;
-	border-color: #5F5C00;
+	background:#333333;
+	border-color: #333333;
 }
 #P_Boutons input[type=button]:active
 {
-	background:#909026;
-	border-color:#909026;
+	background:#000000;
+	border-color:#000000;
 }
 #P_Boutons input[type=button].Disabled
 {

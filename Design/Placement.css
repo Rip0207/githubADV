@@ -111,8 +111,13 @@ p
 #Boutons
 {
 	position : absolute;
-	top : 110px;
-	right : 200px;
+	top : 10px;
+	right : 400px;
+}
+#Boutons input,#Research input
+{
+	font-size:0.8em;
+	width:100px;
 }
 #Boutons ul>li
 {
@@ -122,8 +127,8 @@ p
 #Research
 {
 	position : absolute;
-	top : 110px;
-	left : 200px;
+	top : 10px;
+	left : 400px;
 	width: 50%;
     max-width: 300px;
 }
@@ -170,6 +175,7 @@ p
 	padding:10px;
 	width : 100%;
 	max-width : 300px;
+	font-size:0.8em;
 }
 #Connexion input[type=text],#Inscription input[type="text"],
 #Connexion input[type=password],#Inscription input[type="password"]
@@ -179,7 +185,7 @@ p
 #P_Boutons
 {
 	position : absolute;
-	left:200px;
+	left:400px;
 	z-index:2;
 }
 #P_1
@@ -218,10 +224,11 @@ p
 {
 	width : 100%;
 	height: 100%;
-	padding : 100px;
+	/*padding : 100px;
 	padding-left:190px;
-	padding-right:190px;
-	overflow-y : hidden;
+	padding-right:190px;*/
+	/*padding-top : 50px;*/
+	overflow : hidden;
 	position : absolute;
 	top:0%;
 	z-index:1;
@@ -233,9 +240,17 @@ p
 }
 .Planche > .Container
 {
-	margin-top : 0px;
+	margin:0 auto;
 	position : relative;
 	height : 100%;
+	width:100%;
+	display:inline-block;
+	vertical-align:middle;
+	min-height:600px;
+	min-width:800px;
+	height:100%;
+	
+	max-width:1200px;
 }
 .Planche >.Container>div>p
 {
@@ -255,8 +270,8 @@ p
     margin-bottom: 0px;
     width: 15%;
     height: 25%;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 100px;
+    max-height: 100px;
     min-width: 75px;
     min-height: 75px;
 }
@@ -410,5 +425,19 @@ p
 		width: 100%;
 		padding-top: 10px;
 		padding-left: 20px;
+	}
+}
+@media (max-height :870px) AND (min-height:841px )
+{
+	.Planche
+	{
+		padding-top:12px;
+	}
+}
+@media (max-height :840px )
+{
+	.Planche
+	{
+		padding:0px;
 	}
 }

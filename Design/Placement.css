@@ -146,6 +146,7 @@ p
 #Research input[type=text]
 {
 	width : 100%;
+	padding:5px;
 	padding-left:20%;
 }
 
@@ -250,6 +251,7 @@ p
 	height:50px;
 	position : absolute;
 	width : 100%;
+	line-height: 2.2em;
 }
 
 /* Ne concerne que la dernière planche */

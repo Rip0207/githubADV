@@ -43,7 +43,13 @@
 	-o-animation: DisablePlanche ease-in 1 reverse;
 	animation: DisablePlanche ease-in 1 reverse;
 }
-
+#Spinner.VisualyDisabled
+{
+	-webkit-animation: Apparition 0.5s ease-in 1 reverse;	
+	-moz-animation: Apparition 0.5s ease-in 1 reverse;	
+	-o-animation: Apparition 0.5s ease-in 1 reverse;	
+	animation: Apparition 0.5s ease-in 1 reverse;
+}
 /*
 .Preview
 {

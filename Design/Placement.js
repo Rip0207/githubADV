@@ -25,7 +25,7 @@ function Base()
 	{
 		//Evite certains désagréements.
 		window.onresize = GraphicalInit;	
-		document.body.onload = GraphicalInit;		
+		document.body.onload = Load;		
 		
 		document.body.addEventListener("wheel",WheelChangementPlan);		
 		document.addEventListener("Delayed",function(){clearInterval(interval);});
@@ -81,6 +81,17 @@ function Base()
 		{		
 			btnSpecialPlanche[i].getElementsByTagName("input")[0].addEventListener("click",ButtonChangementPlan);
 		}
+		var btnSPreview = document.getElementsByClassName(C_Preview)
+		for(var i = 0;i< btnSpecialPlanche.length;i++ )
+		{		
+			var num = SearchParentFromClass(btnSPreview[i],C_ClassPlanche).getAttribute("id").split("_")[1];
+			if(num!=NaN)
+			{
+				btnSPreview[i].setAttribute("name","Preview_"+((parseInt(num))+1));
+				btnSPreview[i].addEventListener("click",ButtonChangementPlan);
+			}
+			
+		}
 	}
 	
 	//Replacement des éléments graphique le nécéssitant
@@ -99,6 +110,24 @@ function Base()
 			Displace(elementCentreY[i],true,false);
 		}
 	}
+	
+	function Load()
+	{
+		GraphicalInit();
+		var spinner = document.getElementById(C_Spinner);
+		if(spinner !=null)
+		{
+			spinner.classList.toggle(C_VisualyDisabled);
+			setTimeout(function(){
+				spinner.classList.toggle(C_VisualyDisabled);
+				spinner.classList.toggle(C_Disabled);
+			},
+			C_AnimDelay_02*1000
+			);
+		}
+			
+	}
+	
 	function WheelChangementPlan(e)
 	{
 		if(delay.Current == 0)

@@ -1,10 +1,10 @@
 <div id = "P_1" class="color_05 Planche" >
 	<div class="Container">
 		<div class="CenterX Top_10">					
-			<p>
-				<h1>Mon Album de vie</h1>
-				<p><h3>Rassemblez votre vie et transmettez-la.</h3></p>
-			</p>
+			
+			<h1>Mon Album de vie</h1>
+			<h3>Rassemblez votre vie et transmettez-la.</h3>
+			
 		</div>
 		<form id="Connexion" method="POST" action="#" class="Center" >
 			<fieldset>

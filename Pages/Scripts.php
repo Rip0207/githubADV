@@ -24,29 +24,6 @@ $('.datepicker').pickadate({
 <script src="./wow_book/wow_book.min.js"></script>
 <script>
 	$(function(){
-
-		/*var bookOptions = {
-			 height   : 500
-			,width    : 800
-			,maxWidth : 800
-			,maxHeight : 800
-
-			,centeredWhenClosed : true
-			,hardcovers : true
-			,toolbar : "first, back, next, last, toc, zoomin, zoomout, slideshow, flipsound, fullscreen, thumbnails, download"
-			,thumbnailsPosition : 'left'
-			,responsiveHandleWidth : 50
-
-		};*/
-
-		/*$('#book').wowBook( {
-			coverWidth  : 700
-			,coverHeight : 600
-			,pageWidth   : 650
-			,pageHeight  : 550
-			,hardcovers : true
-			,scaleToFit: "#Book_Container"
-		} ); // create the book*/
 		
 		$('#book').wowBook( {
 			height:600

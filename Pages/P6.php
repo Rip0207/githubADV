@@ -13,7 +13,7 @@
 						type="text"
 						autofocuss /></li>
 					<li>
-						<input name="password" type="password" required placeholder="Mot de passe" class="" />
+						<input name="password" type="password" required placeholder="Mot de passe (min : 6 caractères)" class="" />
 						<div id="container" class="CenterX">
 						</div>
 					</li>

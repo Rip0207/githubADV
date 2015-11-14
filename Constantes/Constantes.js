@@ -12,9 +12,11 @@ var C_center = "Center";
 var C_centerX = "CenterX";
 var C_centerY = "CenterY";
 var C_LastPlanche="Last";
+var C_ClassPlanche="Planche";
 var C_Preview="Preview";
 var C_PlancheTransition=["EnabledUp","EnabledDown","DisabledUp","DisabledDown","DisabledUpM","DisabledDownM"];
 var C_Disabled="Disabled";
+var C_VisualyDisabled="VisualyDisabled";
 
 /* Names */
 var C_BTN_Log = "ToLog";
@@ -30,9 +32,11 @@ var C_FormSub = "Inscription";
 var C_NavLeft = "NavigationLeft";
 var C_NavRight= "NavigationRight";
 var C_Planche = "P";
+var C_Spinner= "Spinner";
 var C_BoutonToPlanche = "P_Boutons";
 
 /* Other */
-var C_AnimDelay_01=0.5;
+var C_AnimDelay_01=0.75;
+var C_AnimDelay_02=0.5;
 var C_PlancheToPass=1;
 

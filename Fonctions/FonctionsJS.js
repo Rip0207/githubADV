@@ -35,9 +35,6 @@ function ResetClasses(p_Elem,p_Class)
 	}
 	else if(p_Elem.nodeType===undefined)
 	{
-		
-		console.log(p_Elem);
-		console.log(Array.isArray(p_Elem));
 		return;
 	}
 	for(var i = 1 ; i<arguments.length;i++)
@@ -61,7 +58,29 @@ function ResetClasses(p_Elem,p_Class)
 		}
 	}
 }
-
+function SearchParentFromClass(p_Elem,p_Class)
+{
+	if(typeof(p_Elem)!== "object")
+	{
+		return null;
+	}
+	else if(p_Elem.nodeType===undefined)
+	{
+		return null;
+	}
+	if(p_Elem.parentNode==document.body)
+	{
+		return null;
+	}
+	if(HasClass(p_Elem.parentNode,p_Class))
+	{
+		return p_Elem.parentNode;
+	}
+	else
+	{
+		return SearchParentFromClass(p_Elem.parentNode,p_Class);
+	}
+}
 function GetArrayFromNodeList(p_NodeList)
 {
 	var nodes =[]; 

@@ -17,7 +17,12 @@
 	<body>
 		<!-- Conteneur principale -->
 		<div id = "Principal">
-		
+			
+			<!-- Spinner -->
+			<?php
+				require_once("./Pages/Spinner.php");
+			?>
+			
 			<!-- Planche par ordre décroissant pour un empilement logique -->
 			<!-- Page 6 -->
 			<?php

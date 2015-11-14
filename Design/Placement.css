@@ -244,8 +244,7 @@ p
 {
 	width: auto;
     height: auto;
-    max-width: 250px;
-    max-height: 250px;
+    max-height: 50%;
     min-width: 75px;
     min-height: 75px;
 
@@ -253,6 +252,11 @@ p
 #P_0 >.Container>a
 {
 	padding : 2px;
+}
+#P_0 >.Container>.Preview 
+{
+    font-size: 0.7em;
+	height:25px;
 }
 #container
 {

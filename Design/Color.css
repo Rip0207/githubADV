@@ -70,6 +70,16 @@
 	background-size : cover;
 	color : #FFFFFF;
 }
+.color_10
+{
+	background: #3366cc;
+	background: -webkit-radial-gradient(circle, ##F78A0, #3366cc);
+	background: -o-radial-gradient(circle, #4F78A0, #3366cc); 
+	background: -moz-radial-gradient(circle, #4F78A0, #3366cc);
+	background: radial-gradient(circle, #4F78A0, #3366cc);
+	color : #FFFFFF;	
+}
+
 .Planche >  .Container > .Logo
 {
 	background-image: url("./Images/Logo_C_01.png");
@@ -173,6 +183,12 @@ input[type=text],input[type=password]
 	background: #FFFFFF;
     border-color: #FFFFFF;
     color: #228a45;
+}
+#P_0 >.Container>.Preview
+{
+	opacity:1;
+	background-color:#adc2eb;
+	color:#000000;
 }
 #P_Boutons input[type=button]
 {

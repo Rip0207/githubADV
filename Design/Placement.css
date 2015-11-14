@@ -509,6 +509,15 @@ p
 {
 	font-weight:bold;
 }
+.Table
+{
+	display: table;
+}
+.TableCell
+{
+	display: table-cell;
+    vertical-align: middle;
+}
 @-moz-document url-prefix() 
 {
   #Book_Container

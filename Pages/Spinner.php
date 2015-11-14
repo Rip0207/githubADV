@@ -1,5 +1,5 @@
-<div id="Spinner" class="color_01">
-	<div class="Center" >
+<div id="Spinner" class="color_01 Table">
+	<div class="TableCell" >
 		<div class="sk-circle">
 		  <div class="sk-circle1 sk-child"></div>
 		  <div class="sk-circle2 sk-child"></div>

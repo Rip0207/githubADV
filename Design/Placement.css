@@ -252,11 +252,22 @@ p
 #P_0 >.Container>a
 {
 	padding : 2px;
+	font-weight:bold;
 }
 #P_0 >.Container>.Preview 
 {
     font-size: 0.7em;
 	height:25px;
+}
+#Paypal
+{
+	text-align:right;
+	max-width: 625px;
+    margin: 0 auto;
+}
+#Paypal input
+{
+	border:none;
 }
 #container
 {
@@ -266,7 +277,7 @@ p
 #Book_Container
 {
 	width: 100%;
-    padding: 50px;
+    /*padding: 50px;*/
 }
 #book
 {

@@ -1,6 +1,7 @@
 <div id = "P_4" class="color_08 Planche" >
 	<div class="Container color_03">
-		<div id="Book_Container" class="Center">
+	<h2>En un clin d'oeil</h2>
+		<div id="Book_Container" class="">
 			<div class='book_container'>
 			
 				<div id="book">

@@ -20,7 +20,7 @@
 			
 			<!-- Spinner -->
 			<?php
-			/*
+			
 				require_once("./Pages/Spinner.php");
 			?>
 			
@@ -52,7 +52,8 @@
 			<!-- Interfaces -->
 			<?php
 				require_once("./Pages/Interfaces.php");
-				*/
+				
+				/*require_once("./Pages/P0.php");*/
 			?>
 			
 			

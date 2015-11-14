@@ -203,9 +203,14 @@ input[type=text],input[type=password]
 	background-color:rgba(0,0,0,0.2);	
 	border:none;
 	color : #FFFFFF;
-	font-weight:bold;
+	font-weight:normal;
+	font-size:0.8em;
 }
-
+#Research>div>div>img.color_90
+{
+	border: 0px;
+    background: rgba(255,255,255,1);
+}
 #Research input[type=text]::-webkit-input-placeholder 
 {
     color :#FFFFFF;

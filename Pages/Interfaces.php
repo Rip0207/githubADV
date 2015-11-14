@@ -13,8 +13,8 @@
 	<div id="Research" class="Interface" >
 		<div>
 			<div class="left">
-				<img title="Déclarer un décès" alt="Déclarer un décès (Lien)" src = "./Design/Images/btn_06.png" />
-				<img title="Rechercher un album de vie" alt="Rechercher un album de vie (Lien)" src = "./Design/Images/btn_07.png" />
+				<img class="color_90" title="Déclarer un décès" alt="Déclarer un décès (Lien)" src = "./Design/Images/btn_06.png" />
+				<img class="Decalage" title="Rechercher un album de vie" alt="Rechercher un album de vie (Lien)" src = "./Design/Images/btn_07.png" />
 			</div>
 			<input name="SearchFor" type="text" placeholder="Trouver un album de vie" class="" />
 		</div>

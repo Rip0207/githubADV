@@ -1,5 +1,6 @@
 <div id="Spinner" class="color_01 Table">
 	<div class="TableCell" >
+	<h2>Mon album de vie</h2>
 		<div class="sk-circle">
 		  <div class="sk-circle1 sk-child"></div>
 		  <div class="sk-circle2 sk-child"></div>

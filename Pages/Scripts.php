@@ -28,6 +28,7 @@ $('.datepicker').pickadate({
 		$('#book').wowBook( {
 			height:600
 			,width: 920
+			,flipSound  : false
 			,hardcovers : true
 			,scaleToFit: "#Book_Container"
 		} ); // create the book

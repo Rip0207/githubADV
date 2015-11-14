@@ -1,8 +1,10 @@
 <div id = "P_5" class="color_09 Planche" >
 	<div class="Container color_04">
-		<div class="Center">
-			<h2>Des instants de vie à partager.</h2>
-			<img alt="Intergeneration" src="./Design/Images/Illustration_03.png" />						
+	<h2>Des instants de vie à partager.</h2>
+		<div class="">
+			
+			<img alt="Intergeneration" src="./Design/Images/Illustration_09.png" />		
+			<br />					
 			<h3>L’atelier intergénérationnel</h3>
 			<p>
 				Pour ceux qui le souhaitent, l’atelier intergénérationnel se propose de

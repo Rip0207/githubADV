@@ -25,5 +25,8 @@
 		</form>
 		<div class="Logo">
 		</div>
+		<div class="Preview">
+			Copyright
+		</div>
 	</div>
 </div>	

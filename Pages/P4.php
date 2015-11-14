@@ -58,9 +58,7 @@
 					</div>
 					<div class="content">
 						<br />
-						<p>
 							<h3><span class="DateFont">1964</span> Papy et son deuxième fils </h3>
-						</p>
 						<p><img alt="Intergeneration" src="./Pages/ArbreDeVie/IMG_20151002_0003.jpg" />	</p>
 						<p>
 							" Me voilà papa pour la première fois ! "
@@ -206,7 +204,9 @@
 		<div class="Logo">
 		</div>
 		<div class="Preview color_04" >
+			<img class="Left_35"  src = "./Design/Images/Illustration_06.png">
 			Atelier intergénérationnel
+			<img class="Right_35" src = "./Design/Images/Illustration_06.png">
 		</div>
 	</div>	
 </div>

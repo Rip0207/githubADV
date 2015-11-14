@@ -1,9 +1,11 @@
 <div id = "P_2" class="color_06 Planche" >
 	<div class="Container color_01">
-		<div class="Center">
-			<h2>Racontez votre vie à ceux <br />
+		<h2>Racontez votre vie à ceux <br />
 			qui comptent pour vous.</h2>
-			<img alt="Media" src="./Design/Images/Illustration_01.png" />
+			<br />
+		<div class="">
+			
+			<img alt="Media" src="./Design/Images/Illustration_07.png" />
 			
 			<h3>Pourquoi un Album de vie ?</h3>
 			<p>L'Album de vie est un espace de mémoire qui vous survivra.</p>
@@ -14,9 +16,9 @@
 		<div class="Logo">
 		</div>
 		<div class="Preview color_02" >
-			<img  src = "./Design/Images/Illustration_06.png">
+			<img class="Left_35" src = "./Design/Images/Illustration_06.png">
 			Comment ça marche ?
-			<img  src = "./Design/Images/Illustration_06.png">
+			<img class="Right_35" src = "./Design/Images/Illustration_06.png">
 		</div>
 	</div>				
 </div>

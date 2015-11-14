@@ -13,6 +13,8 @@
 				<li><input name="password" type="password" required placeholder="Mot de passe" class="" /></li>
 				<br />
 				<li><input name="Submit" type="submit" value="Connexion" class="" /></li>
+				<li><h3><a href="#">En savoir plus</a></h3></li>
+				
 				<!--<li><input name="ForgetPassword" type="button" value="Mot de passe oublié" class="Disabled" /></li>-->
 			</ul>
 			</fieldset>		
@@ -31,8 +33,7 @@
 				<li><input title="Rechercher un album de vie" alt="Rechercher un album de vie (Lien)" type="image" name="ToP_1" src = "./Design/Images/btn_05.png" /></li>
 			</ul>
 		</div>
-		<div class="CenterX Bottom_10px">
-			<h3><a href="#">En savoir plus</a></h3>
+		<div class="CenterX Bottom_15">
 			<br /><h2>La vie est un voyage, chaque voyage est une histoire</h2>
 		</div>
 		<div class="Logo">

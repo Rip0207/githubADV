@@ -41,32 +41,32 @@
 
 .color_05
 {
-	background:url("./Images/BG_08.jpg");
+	background:url("./Images/BG_09.jpg");
 	background-position:bottom;
 	background-size : cover;
 	color : #FFFFFF;
 }
 .color_06
 {
-	background:url("./Images/BG_02.jpg");
+	background:url("./Images/BG_10.jpg");
 	background-size : cover;
 	color : #FFFFFF;
 }
 .color_07
 {
-	background:url("./Images/BG_03.jpg");
+	background:url("./Images/BG_11.jpg");
 	background-size : cover;
 	color : #FFFFFF;
 }
 .color_08
 {
-	background:url("./Images/BG_04.jpg");
+	background:url("./Images/BG_12.jpg");
 	background-size : cover;
 	color : #FFFFFF;
 }
 .color_09
 {
-	background:url("./Images/BG_05.jpg");
+	background:url("./Images/BG_13.jpg");
 	background-size : cover;
 	color : #FFFFFF;
 }
@@ -100,7 +100,12 @@
 {
    color :#FF0000;
 }
-
+/* Auteur original : Tobias Ahlin */
+.sk-circle .sk-child:before 
+{ 
+  background-color: #FFFFFF;
+}
+/*Fin auteur*/
 input[type=button], input[type=submit],a.Button
 {
 	background: #717d8d;

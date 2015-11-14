@@ -14,7 +14,9 @@
 		<div class="Logo">
 		</div>
 		<div class="Preview color_02" >
+			<img  src = "./Design/Images/Illustration_06.png">
 			Comment ça marche ?
+			<img  src = "./Design/Images/Illustration_06.png">
 		</div>
 	</div>				
 </div>

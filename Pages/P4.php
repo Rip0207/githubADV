@@ -2,6 +2,7 @@
 	<div class="Container color_03">
 		<div id="Book_Container" class="Center">
 			<div class='book_container'>
+			
 				<div id="book">
 					<div class="content" >
 						<img alt="Intergeneration" src="./Pages/ArbreDeVie/CoverUp.jpg" />
@@ -121,7 +122,7 @@
 						
 						<h3>Petit poème aux petits enfants</h3>
 												
-						<p class="left">
+						<p class="left Poeme">
 							Tout dans l'immuable nature <br />
 							Est miracle aux petits enfants ;<br />
 							Ils naissent, et leur âme obscure<br />

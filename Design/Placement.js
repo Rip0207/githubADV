@@ -82,13 +82,19 @@ function Base()
 			btnSpecialPlanche[i].getElementsByTagName("input")[0].addEventListener("click",ButtonChangementPlan);
 		}
 		var btnSPreview = document.getElementsByClassName(C_Preview)
-		for(var i = 0;i< btnSpecialPlanche.length;i++ )
+		for(var i = 0;i< btnSPreview.length;i++ )
 		{		
 			var num = SearchParentFromClass(btnSPreview[i],C_ClassPlanche).getAttribute("id").split("_")[1];
 			if(num!=NaN)
 			{
-				btnSPreview[i].setAttribute("name","Preview_"+((parseInt(num))+1));
+				btnSPreview[i].setAttribute("name","Preview_"+((parseInt(num))+1));				
 				btnSPreview[i].addEventListener("click",ButtonChangementPlan);
+				var btnSPreviewIMG= btnSPreview[i].getElementsByTagName("img");
+				
+				for	(var j = 0;j< btnSPreviewIMG.length;j++ )
+				{
+					btnSPreviewIMG[j].setAttribute("name","PreviewIMG_"+((parseInt(num))+1));		
+				}
 			}
 			
 		}

@@ -324,7 +324,44 @@ p
 	line-height: 2.2em;
 	cursor:pointer;
 }
-
+.Planche > .Container > .Preview > img
+{
+	margin-top:-50%;
+	height:100%;
+}
+/* Auteur original : Tobias Ahlin */
+.sk-circle 
+{
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.sk-circle.Center
+{
+  margin: 0 auto;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+}
+.sk-circle .sk-child 
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.sk-circle .sk-child:before 
+{
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+  height: 15%;
+  border-radius: 100%;
+}
+/*Fin auteur*/
 /* Ne concerne que la dernière planche */
 
 .Planche.Last > .Container
@@ -376,6 +413,10 @@ p
 {
 	padding-top : 1em;
 }
+.wowbook-page-content.content>p.Poeme
+{
+	font-size : 0.8em;
+}
 .wowbook-page-content.content>h3
 {
 	font-size : 1.5em;
@@ -414,6 +455,11 @@ p
 {
 	position : absolute;
 	bottom:0%;
+}
+.Bottom_15
+{
+	position : absolute;
+	bottom:15%;
 }
 .Bottom_10px
 {

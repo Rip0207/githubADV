@@ -21,7 +21,7 @@
 			<!-- Spinner -->
 			<?php
 			
-				require_once("./Pages/Spinner.php");
+			/*	require_once("./Pages/Spinner.php");
 			?>
 			
 			<!-- Planche par ordre décroissant pour un empilement logique -->
@@ -52,8 +52,8 @@
 			<!-- Interfaces -->
 			<?php
 				require_once("./Pages/Interfaces.php");
-				
-				/*require_once("./Pages/P0.php");*/
+				*/
+				require_once("./Pages/P0.php");
 			?>
 			
 			

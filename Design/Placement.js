@@ -98,6 +98,11 @@ function Base()
 			}
 			
 		}
+		var btnParticularPlanche=document.getElementsByClassName(C_GoToPlanche);
+		for(var i = 0;i< btnParticularPlanche.length;i++ )
+		{		
+			btnParticularPlanche[i].addEventListener("click",ButtonChangementPlan);			
+		}
 	}
 	
 	//Replacement des éléments graphique le nécéssitant
@@ -119,7 +124,7 @@ function Base()
 	
 	function Load()
 	{
-		GraphicalInit();
+		//GraphicalInit();
 		var spinner = document.getElementById(C_Spinner);
 		if(spinner !=null)
 		{

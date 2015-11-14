@@ -13,6 +13,7 @@ var C_centerX = "CenterX";
 var C_centerY = "CenterY";
 var C_LastPlanche="Last";
 var C_ClassPlanche="Planche";
+var C_GoToPlanche="GotoP"
 var C_Preview="Preview";
 var C_PlancheTransition=["EnabledUp","EnabledDown","DisabledUp","DisabledDown","DisabledUpM","DisabledDownM"];
 var C_Disabled="Disabled";

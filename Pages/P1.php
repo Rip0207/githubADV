@@ -13,7 +13,7 @@
 				<li><input name="password" type="password" required placeholder="Mot de passe" class="" /></li>
 				<br />
 				<li><input name="Submit" type="submit" value="Connexion" class="" /></li>
-				<li><h3><a href="#">En savoir plus</a></h3></li>
+				<li><h3><a class="GotoP" name="ToPlanche_02" href="#">En savoir plus</a></h3></li>
 				
 				<!--<li><input name="ForgetPassword" type="button" value="Mot de passe oublié" class="Disabled" /></li>-->
 			</ul>

@@ -151,7 +151,7 @@ p
 	top : 10px;
 	right : 10px;
 }
-#Boutons input,#Research input
+#Boutons input,#Research input,#Boutons a.Button,#Research a.Button
 {
 	font-size:0.8em;
 	width:120px;

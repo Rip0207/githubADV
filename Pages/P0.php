@@ -32,8 +32,8 @@
 		<div id="Boutons" class="Interface" >
 			<form method="POST" action="#">
 				<fieldset>
-				<ul>
-					<li><input name="ToLog" type="button" value="Deconnexion" class="" /></li>				
+				<ul>		
+					<li><a href="#" class="Button" >Deconnexion</a></li>			
 				</ul>
 				</fieldset>		
 			</form>

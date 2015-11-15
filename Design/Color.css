@@ -166,25 +166,25 @@ input[type=text],input[type=password]
     border-color: #FFFFFF;
     color: #5F5C00;
 }
-#P_0 >.Container>a.Button
+#P_0 >.Container>a.Button,#P_-1 >.Container>a.Button
 {
 	background: #DDDDDD;
     border-color: #DDDDDD;
     color: #2eb95c;
 }
-#P_0 >.Container>a.Button:hover
+#P_0 >.Container>a.Button:hover,#P_-1 >.Container>a.Button:hover
 {
 	background: #FFFFFF;
     border-color: #FFFFFF;
     color: #2eb95c;
 }
-#P_0 >.Container>a.Button:active
+#P_0 >.Container>a.Button:active,#P_-1 >.Container>a.Button:active
 {
 	background: #FFFFFF;
     border-color: #FFFFFF;
     color: #228a45;
 }
-#P_0 >.Container>.Preview
+#P_0 >.Container>.Preview,#Smartphone>#Footer
 {
 	opacity:1;
 	background-color:#adc2eb;

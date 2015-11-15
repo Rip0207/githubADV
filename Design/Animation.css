@@ -1,47 +1,47 @@
 .Planche.DisabledUp
 {
 	top : 0px;
-	-webkit-animation: DisablePlanche ease-in 1 forwards;
-	-moz-animation: DisablePlanche ease-in 1 forwards;
-	-o-animation: DisablePlanche ease-in 1 forwards;
-	animation: DisablePlanche ease-in 1 forwards;
+	-webkit-animation: DisablePlanche 0.75s ease-in 1 forwards;
+	-moz-animation: DisablePlanche 0.75s ease-in 1 forwards;
+	-o-animation: DisablePlanche 0.75s ease-in 1 forwards;
+	animation: DisablePlanche 0.75s ease-in 1 forwards;
 }
 .Planche.DisabledUpM
 {
-	-webkit-animation: DisablePlanche ease-in 1 forwards;
-	-moz-animation: DisablePlanche ease-in 1 forwards;
-	-o-animation: DisablePlanche ease-in 1 forwards;
-	animation: DisablePlanche ease-in 1 forwards;
+	-webkit-animation: DisablePlanche 0.75s ease-in 1 forwards;
+	-moz-animation: DisablePlanche 0.75s ease-in 1 forwards;
+	-o-animation: DisablePlanche 0.75s ease-in 1 forwards;
+	animation: DisablePlanche 0.75s ease-in 1 forwards;
 }
 .Planche.EnabledDown
 {
 	top : 0px;
-	-webkit-animation: DisablePlanche ease-in 1 reverse;
-	-moz-animation: DisablePlanche ease-in 1 reverse;
-	-o-animation: DisablePlanche ease-in 1 reverse;
-	animation: DisablePlanche ease-in 1 reverse;
+	-webkit-animation: DisablePlanche 0.75s ease-in 1 reverse;
+	-moz-animation: DisablePlanche 0.75s ease-in 1 reverse;
+	-o-animation: DisablePlanche 0.75s ease-in 1 reverse;
+	animation: DisablePlanche 0.75s ease-in 1 reverse;
 }
 .Planche.EnabledUp
 {
-	-webkit-animation: EnablePlanche ease-in 1 forwards;
-	-moz-animation: EnablePlanche ease-in 1 forwards;
-	-o-animation: EnablePlanche ease-in 1 forwards;
-	animation: EnablePlanche ease-in 1 forwards;
+	-webkit-animation: EnablePlanche 0.75s ease-in 1 forwards;
+	-moz-animation: EnablePlanche 0.75s ease-in 1 forwards;
+	-o-animation: EnablePlanche 0.75s ease-in 1 forwards;
+	animation: EnablePlanche 0.75s ease-in 1 forwards;
 }
 
 .Planche.DisabledDown
 {
-	-webkit-animation: EnablePlanche ease-in 1 reverse;
-	-moz-animation: EnablePlanche ease-in 1 reverse;
-	-o-animation: EnablePlanche ease-in 1 reverse;
-	animation: EnablePlanche ease-in  reverse;
+	-webkit-animation: EnablePlanche 0.75s ease-in 1 reverse;
+	-moz-animation: EnablePlanche 0.75s ease-in 1 reverse;
+	-o-animation: EnablePlanche 0.75s ease-in 1 reverse;
+	animation: EnablePlanche 0.75s ease-in  reverse;
 }
 .Planche.DisabledDownM
 {
-	-webkit-animation: DisablePlanche ease-in 1 reverse;
-	-moz-animation: DisablePlanche ease-in 1 reverse;
-	-o-animation: DisablePlanche ease-in 1 reverse;
-	animation: DisablePlanche ease-in 1 reverse;
+	-webkit-animation: DisablePlanche 0.75s ease-in 1 reverse;
+	-moz-animation: DisablePlanche 0.75s ease-in 1 reverse;
+	-o-animation: DisablePlanche 0.75s ease-in 1 reverse;
+	animation: DisablePlanche 0.75s ease-in 1 reverse;
 }
 #Spinner.VisualyDisabled
 {

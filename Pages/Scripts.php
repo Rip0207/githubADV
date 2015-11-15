@@ -38,6 +38,7 @@ $('.datepicker').pickadate({
 </script>
 
 <!-- Custom -->		
+<!--[if IE ]> <div id="system" class="ie"></div> < ![endif]-->
 <script src="./Constantes/Constantes.js"></script>
 <script src="./Fonctions/FonctionsJS.js"></script>
 <script src="./Fonctions/Delay.js"></script>

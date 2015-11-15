@@ -3,7 +3,7 @@
 	<head>
 	<!-- DataHead -->
 		<title>Mon Arbre de vie </title>
-				
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" >
 		<link rel="stylesheet" href="./Design/classic.css" >
 		<link rel="stylesheet" href="./Design/classic.date.css" >
 
@@ -21,7 +21,7 @@
 			<!-- Spinner -->
 			<?php
 			
-			/*	require_once("./Pages/Spinner.php");
+				require_once("./Pages/Spinner.php");
 			?>
 			
 			<!-- Planche par ordre décroissant pour un empilement logique -->
@@ -52,8 +52,8 @@
 			<!-- Interfaces -->
 			<?php
 				require_once("./Pages/Interfaces.php");
-				*/
-				require_once("./Pages/P0.php");
+				
+				/*require_once("./Pages/P0.php");*/
 			?>
 			
 			

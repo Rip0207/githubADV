@@ -13,7 +13,10 @@ function Base()
 	var formInscription = document.getElementById(C_FormSub);
 	
 	//Placement des boutons de transition de planches
-	AddInputs(document.getElementById(C_BoutonToPlanche).getElementsByTagName("fieldset")[0],getLastPlanche(),C_ToPlanche);
+	if(document.getElementById(C_BoutonToPlanche)!=null)
+	{
+		AddInputs(document.getElementById(C_BoutonToPlanche).getElementsByTagName("fieldset")[0],getLastPlanche(),C_ToPlanche);
+	}
 	
 	//Ajouts des évènements
 	AddEvents();
@@ -28,7 +31,7 @@ function Base()
 		document.body.onload = Load;		
 		
 		document.body.addEventListener("wheel",WheelChangementPlan);		
-		document.addEventListener("Delayed",function(){clearInterval(interval);});
+		//document.addEventListener("Delayed",function(){clearInterval(interval);});
 		var btnLogs = document.getElementsByName(C_BTN_Log);
 		for(var i = 0;i< btnLogs.length;i++ )
 		{		
@@ -66,37 +69,51 @@ function Base()
 				});
 		}
 		
-		formConnexion.onsubmit=CheckConnexion;
-		formInscription.onsubmit=CheckSubscription;
-		
-		var btnPlanche= document.getElementById(C_BoutonToPlanche).getElementsByTagName("fieldset")[0].getElementsByTagName("ul")[0].getElementsByTagName("li");
-		
-		for(var i = 0;i< btnPlanche.length;i++ )
-		{		
-			btnPlanche[i].getElementsByTagName("input")[0].addEventListener("click",ButtonChangementPlan);
+		if(formConnexion!=null)
+		{
+			formConnexion.onsubmit=CheckConnexion;
 		}
-		
-		var btnSpecialPlanche = document.getElementById(C_NavLeft).getElementsByTagName("ul")[0].getElementsByTagName("li");
-		for(var i = 0;i< btnSpecialPlanche.length;i++ )
-		{		
-			btnSpecialPlanche[i].getElementsByTagName("input")[0].addEventListener("click",ButtonChangementPlan);
+		if(formInscription!=null)
+		{
+			formInscription.onsubmit=CheckSubscription;
 		}
-		var btnSPreview = document.getElementsByClassName(C_Preview)
-		for(var i = 0;i< btnSPreview.length;i++ )
-		{		
-			var num = SearchParentFromClass(btnSPreview[i],C_ClassPlanche).getAttribute("id").split("_")[1];
-			if(num!=NaN)
-			{
-				btnSPreview[i].setAttribute("name","Preview_"+((parseInt(num))+1));				
-				btnSPreview[i].addEventListener("click",ButtonChangementPlan);
-				var btnSPreviewIMG= btnSPreview[i].getElementsByTagName("img");
+		var btnPlanche= document.getElementById(C_BoutonToPlanche);
+		if(btnPlanche!=null)
+		{
+			btnPlanche=btnPlanche.getElementsByTagName("fieldset")[0].getElementsByTagName("ul")[0].getElementsByTagName("li");
 				
-				for	(var j = 0;j< btnSPreviewIMG.length;j++ )
-				{
-					btnSPreviewIMG[j].setAttribute("name","PreviewIMG_"+((parseInt(num))+1));		
-				}
+			for(var i = 0;i< btnPlanche.length;i++ )
+			{		
+				btnPlanche[i].getElementsByTagName("input")[0].addEventListener("click",ButtonChangementPlan);
 			}
-			
+		}
+		if(document.getElementById(C_NavLeft)!=null)
+		{
+			var btnSpecialPlanche = document.getElementById(C_NavLeft).getElementsByTagName("ul")[0].getElementsByTagName("li");
+			for(var i = 0;i< btnSpecialPlanche.length;i++ )
+			{		
+				btnSpecialPlanche[i].getElementsByTagName("input")[0].addEventListener("click",ButtonChangementPlan);
+			}
+		}
+		if(document.getElementsByClassName(C_Preview)!=null)
+		{
+			var btnSPreview = document.getElementsByClassName(C_Preview)
+			for(var i = 0;i< btnSPreview.length;i++ )
+			{		
+				var num = SearchParentFromClass(btnSPreview[i],C_ClassPlanche).getAttribute("id").split("_")[1];
+				if(num!=NaN)
+				{
+					btnSPreview[i].setAttribute("name","Preview_"+((parseInt(num))+1));				
+					btnSPreview[i].addEventListener("click",ButtonChangementPlan);
+					var btnSPreviewIMG= btnSPreview[i].getElementsByTagName("img");
+					
+					for	(var j = 0;j< btnSPreviewIMG.length;j++ )
+					{
+						btnSPreviewIMG[j].setAttribute("name","PreviewIMG_"+((parseInt(num))+1));		
+					}
+				}
+				
+			}
 		}
 		var btnParticularPlanche=document.getElementsByClassName(C_GoToPlanche);
 		for(var i = 0;i< btnParticularPlanche.length;i++ )
@@ -124,7 +141,7 @@ function Base()
 	
 	function Load()
 	{
-		//GraphicalInit();
+		GraphicalInit();
 		var spinner = document.getElementById(C_Spinner);
 		if(spinner !=null)
 		{
@@ -182,7 +199,13 @@ function Base()
 				GoToPlanche(planche-1);
 			}
 			delay.Start();
-			interval = setInterval(function(){delay.Decrement();}, 1000);
+			interval = setInterval(function(){
+				delay.Decrement();
+				if(delay.Current==0)
+				{
+					clearInterval(interval);
+				}
+				}, 1000);
 		}
 	}
 	function ButtonChangementPlan(e)
@@ -205,7 +228,13 @@ function Base()
 			}
 			GoToPlanche(parseInt(e.target.getAttribute("name").split("_")[1]));
 			delay.Start();
-			interval = setInterval(function(){delay.Decrement();}, C_AnimDelay_01*1000);			
+			interval = setInterval(function(){
+				delay.Decrement();
+				if(delay.Current==0)
+				{
+					clearInterval(interval);
+				}
+				}, 1000);
 		}
 	}
 	function getLastPlanche()
